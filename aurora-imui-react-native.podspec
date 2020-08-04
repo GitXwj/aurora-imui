@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
 
   s.source       = { :git => "https://github.com/GitXwj/aurora-imui.git", :tag => "v#{s.version}" }
-  s.source_files  = "ReactNative/ios/", "iOS/**/*.{h,m,swift}"
+  s.source_files  = "ReactNative/ios/"
   #s.source_files  = "iOS/**/*.{h,m,swift}"
 
   s.frameworks = "RCTAuroraIMUI"
